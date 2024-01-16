@@ -1,0 +1,99 @@
+.profile-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px; 
+}
+.input{
+  height:40px;
+  width:100%;
+  border: none;
+  border-bottom: 5px solid black;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  
+}
+.input:focus,input:valid{
+  border-bottom: 5px solid black;
+  
+}
+.name{
+  margin-left: 10px;
+  font-family: serif;
+  font-size: 30px;
+  transform: translateY(-100px);
+}
+.app {
+  width: 60%;
+  margin: 150px auto;
+
+}
+.email{
+  margin-left: 20px;
+  font-weight: 100;
+  font-size: 25px;
+ 
+}
+.title{
+  font-size: 55px;
+  text-align: center;
+  font-family: serif;
+  
+
+}
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.chip {
+  background-color:whitesmoke;
+  padding:65 35px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.chip-remove-icon {
+  margin-left: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.options-container {
+  margin-top: 10px;
+}
+
+.option {
+  background-color: #f0f0f0;
+  height:50px;
+  width:50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+ 
+  
+
+}
+body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.options-container {
+  overflow:scroll;
+  max-height: 450px;
+  
+}
+
+.options-scroll {
+  overflow-y: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
